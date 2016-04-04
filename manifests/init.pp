@@ -11,7 +11,7 @@
 #   Hash containing entire SSSD config.
 #
 # [*sssd_package*]
-#   Name of the sssd package. Only set this if your patform is not supported or
+#   Name of the sssd package. Only set this if your platform is not supported or
 #   you know what you're doing.
 #
 # [*extra_packages*]
