@@ -135,20 +135,21 @@ class sssd (
     $logindefs_mail_dir,
   )
 
-  validate_integer([
-    $logindefs_pass_max_days,
-    $logindefs_pass_min_days,
-    $logindefs_pass_min_len,
-    $logindefs_pass_warn_age,
-    $logindefs_uid_min,
-    $logindefs_uid_max,
-    $logindefs_sys_uid_min,
-    $logindefs_sys_uid_max,
-    $logindefs_gid_min,
-    $logindefs_gid_max,
-    $logindefs_sys_gid_min,
-    $logindefs_sys_gid_max,
-    $logindefs_umask,
+  validate_integer(
+    [
+      $logindefs_pass_max_days,
+      $logindefs_pass_min_days,
+      $logindefs_pass_min_len,
+      $logindefs_pass_warn_age,
+      $logindefs_uid_min,
+      $logindefs_uid_max,
+      $logindefs_sys_uid_min,
+      $logindefs_sys_uid_max,
+      $logindefs_gid_min,
+      $logindefs_gid_max,
+      $logindefs_sys_gid_min,
+      $logindefs_sys_gid_max,
+      $logindefs_umask,
     ]
   )
 

@@ -41,7 +41,7 @@ class sssd::config (
     'Redhat': {
 
       file { '/etc/login.defs':
-        ensure  => present, # Did not use "$ensure" here since we do not want to remove this even if we are removing SSSD
+        ensure  => file, # Did not use "$ensure" here since we do not want to remove this even if we are removing SSSD
         owner   => 'root',
         group   => 'root',
         mode    => '0644',
